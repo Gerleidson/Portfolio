@@ -1,11 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+    <meta name="description" content="curriculo web">
+    <meta name="keywords" content="portfolio">
+    <meta name="Gerleidson" content="Gerleidson">
+    <link rel="shortcut icon" href="./assets/img/dev.svg">
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,800|Roboto+Condensed:400,800" rel="stylesheet">
+    <title>Soluções e Dicas para Técnicos de Informática</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ06+1aEOe8rYyD2yG2tsbOP5Q5g5GV5smw5k0t1/snpJz6vWlP7g5HHshXE" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link type="text/css" href="./assets/css/blog.css" rel="stylesheet">
+
+    <style>
+        .modal-body img {
+            max-width: 100%; /* Faz a imagem se ajustar ao tamanho do modal */
+        }
+    </style>
 </head>
 <body>
-    <h1>Em construção!</h1>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container-fluid">
+        <!-- Logo ou Nome da Marca -->
+        <a class="navbar-brand" href="index.html">.Home</a>
+        </div>
+    </nav>
+  
+    <!-- Banner Principal -->
+    <section class="banner">
+        <div class="container">
+            <div class="text-background p-4">
+                <h1 class="display-4">Soluções e Dicas para Técnicos de Informática</h1>
+                <p class="lead">Encontre tutoriais, artigos e dicas práticas para facilitar seu trabalho com manutenção de computadores e notebooks.</p>
+                <a href="#artigos" class="btn btn-light btn-lg">Leia os Artigos</a>
+                <a href="#ferramentas" class="btn btn-light btn-lg">Programas Técnicos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artigos -->
+    <section id="artigos" class="container my-5">
+        <h2 class="section-title text-center mb-5">Artigos Recentes</h2>
+        <div class="row gx-4 gy-4">
+            <!-- Artigo 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Imagem do Artigo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Como Diagnosticar e Corrigir Erros de Disco no Windows</h5>
+                        <p class="card-text">Aprenda a identificar e corrigir falhas de disco rígido e SSD, incluindo erros de sistema e problemas físicos.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Artigo 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Imagem do Artigo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Upgrade de Memória RAM: O Que Você Precisa Saber</h5>
+                        <p class="card-text">Saiba como melhorar o desempenho do seu computador com um upgrade de memória RAM de maneira fácil e econômica.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Artigo 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Imagem do Artigo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Como Solucionar Problemas de Rede no Windows 10</h5>
+                        <p class="card-text">Descubra como resolver problemas comuns de conectividade de rede no Windows 10, como falhas de IP e de adaptadores.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ferramentas -->
+    <section id="ferramentas" class="container my-5">
+        <h2 class="section-title text-center mb-5">Ferramentas Essenciais para Técnicos de TI</h2>
+        <div class="row gx-4 gy-4">
+            <!-- Ferramenta 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/memtest.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">MemTest86</h5>
+                        <p class="card-text">Ferramenta de diagnóstico para testar a memória RAM do seu PC sem necessidade de iniciar o sistema operacional.</p>
+                        <a href="https://www.memtest86.com/" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/crystal.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">CrystalDiskInfo</h5>
+                        <p class="card-text">Monitore a saúde dos seus discos rígidos e SSDs com esta poderosa ferramenta de diagnóstico.</p>
+                        <a href="https://www.crystalmark.info/en/software/crystaldiskinfo/" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/hirens.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Hiren's BootCD</h5>
+                        <p class="card-text">Kit de ferramentas essenciais para recuperação de sistemas, formatação e manutenção de PCs.</p>
+                        <a href="https://www.hirensbootcd.org/" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/driverpack.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Driver Pack solutions</h5>
+                        <p class="card-text">Conjunto completo de drivers e utilitários para instalação, atualização e gerenciamento de dispositivos em PCs.</p>                        
+                        <a href="https://driverpack.io/pt-br/info/driverpack-online" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 5 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/ventoy.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Ventoy</h5>
+                        <p class="card-text">Ferramenta poderosa para criar unidades USB bootáveis, permitindo inicializar múltiplos sistemas operacionais de forma prática.</p>                        
+                        <a href="https://www.ventoy.net/en/download.html" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 6 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/utorrent.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Utorrent</h5>
+                        <p class="card-text">Cliente leve e eficiente para download e gerenciamento de arquivos torrent com diversas funcionalidades.</p>
+                        <a href="https://www.utorrent.com/intl/pt_br/downloads/win/" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 7 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/hd tune.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">HD Tune</h5>
+                        <p class="card-text">Utilitário para análise e monitoramento de discos rígidos, incluindo verificação de saúde, desempenho e detecção de erros.</p>                        
+                        <a href="https://www.hdtune.com/download.html" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 8 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/ativador.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Ativador Windows + Office</h5>
+                        <p class="card-text">Ferramenta para ativação de licenças do Windows e Office, garantindo acesso completo a recursos premium.</p>
+                        <a href="https://github.com/abbodi1406/KMS_VL_ALL_AIO/releases" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+              <!-- Ferramenta 9 -->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/winrar.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">WinRAR</h5>
+                        <p class="card-text">Ferramenta para compactação e descompactação de arquivos, suportando múltiplos formatos e protegendo dados com senhas.</p>                        
+                        <a href="https://www.win-rar.com/start.html?&L=9" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 10 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">bla</h5>
+                        <p class="card-text">Kit de ferramentas essenciais para recuperação de sistemas, formatação e manutenção de PCs.</p>
+                        <a href="https://rufus.ie/pt_BR/" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 11 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">bla</h5>
+                        <p class="card-text">Kit de ferramentas essenciais para recuperação de sistemas, formatação e manutenção de PCs.</p>
+                        <a href="https://rufus.ie/pt_BR/" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ferramenta 12 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card h-100">
+                    <img src="assets/img/.png" class="card-img-top" alt="Imagem da Ferramenta">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">bla</h5>
+                        <p class="card-text">Kit de ferramentas essenciais para recuperação de sistemas, formatação e manutenção de PCs.</p>
+                        <a href="https://rufus.ie/pt_BR/" class="btn btn-primary mt-auto" target="_blank">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2024 - Todos os direitos reservados.</p>
+        <!-- <p>
+            <a href="index.html">Sobre</a> | <a href="#">Política de Privacidade</a> | <a href="#">Contato</a>
+        </p> -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0+L0Cz8M9gl6YTp5ATDdZpahTe5QwZ9Xv1KXs7h+ojARjmHZ" crossorigin="anonymous"></script>
 </body>
 </html>
